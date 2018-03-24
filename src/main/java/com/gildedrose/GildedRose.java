@@ -23,26 +23,20 @@ class GildedRose {
 	private void updateItemQuality(int i) {
 		if (!items[i].getName().equals(AGED_BRIE)
 		        && !items[i].getName().equals(BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT)) {
-		    if (items[i].getQuality() > 0) {
-		        if (!items[i].getName().equals(SULFURAS_HAND_OF_RAGNAROS)) {
-		            items[i].setQuality(items[i].getQuality() - 1);
-		        }
+		    if (items[i].getQuality() > 0 && !items[i].getName().equals(SULFURAS_HAND_OF_RAGNAROS)) {
+	            items[i].setQuality(items[i].getQuality() - 1);
 		    }
 		} else {
 		    if (items[i].getQuality() < 50) {
 		        items[i].setQuality(items[i].getQuality() + 1);
 
 		        if (items[i].getName().equals(BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT)) {
-		            if (items[i].getSellIn() < 11) {
-		                if (items[i].getQuality() < 50) {
-		                    items[i].setQuality(items[i].getQuality() + 1);
-		                }
+		            if (items[i].getSellIn() < 11 && items[i].getQuality() < 50) {
+	                    items[i].setQuality(items[i].getQuality() + 1);
 		            }
 
-		            if (items[i].getSellIn() < 6) {
-		                if (items[i].getQuality() < 50) {
-		                    items[i].setQuality(items[i].getQuality() + 1);
-		                }
+		            if (items[i].getSellIn() < 6 && items[i].getQuality() < 50) {
+	                    items[i].setQuality(items[i].getQuality() + 1);
 		            }
 		        }
 		    }
@@ -51,10 +45,8 @@ class GildedRose {
 		if (items[i].getSellIn() < 1) {
 		    if (!items[i].getName().equals(AGED_BRIE)) {
 		        if (!items[i].getName().equals(BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT)) {
-		            if (items[i].getQuality() > 0) {
-		                if (!items[i].getName().equals(SULFURAS_HAND_OF_RAGNAROS)) {
-		                    items[i].setQuality(items[i].getQuality() - 1);
-		                }
+		            if (items[i].getQuality() > 0 && !items[i].getName().equals(SULFURAS_HAND_OF_RAGNAROS)) {
+	                    items[i].setQuality(items[i].getQuality() - 1);
 		            }
 		        } else {
 		            items[i].setQuality(items[i].getQuality() - items[i].getQuality());
