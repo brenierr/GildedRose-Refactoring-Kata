@@ -49,7 +49,7 @@ class GildedRose {
 	                    items[i].setQuality(items[i].getQuality() - 1);
 		            }
 		        } else {
-		            items[i].setQuality(items[i].getQuality() - items[i].getQuality());
+		            items[i].setQuality(0);
 		        }
 		    } else {
 		        if (items[i].getQuality() < 50) {
