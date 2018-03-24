@@ -10,9 +10,9 @@ public class ItemTest {
 
 	@Test
     public void testCreateItem() {
-        assertEquals("foo", item.name);
-        assertEquals(1, item.sellIn);
-        assertEquals(0, item.quality);
+        assertEquals("foo", item.getName());
+        assertEquals(1, item.getSellIn());
+        assertEquals(0, item.getQuality());
     }
 	
 	@Test
