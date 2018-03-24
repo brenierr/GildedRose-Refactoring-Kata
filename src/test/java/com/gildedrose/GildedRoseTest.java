@@ -17,16 +17,16 @@ public class GildedRoseTest {
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {
                 { "foo", 50, 0, 48, -1 }, { "foo", 50, -1, 48, -2 },
-                { "foo", -1, -1, -1, -2 }, { "Aged Brie", 0, 0, 2, -1 },
-                { "Aged Brie", 50, 0, 50, -1 }, 
-                { "Backstage passes to a TAFKAL80ETC concert", 1, 1, 4, 0 },
-                { "Backstage passes to a TAFKAL80ETC concert", 50, -1, 0, -2 },
-                { "Backstage passes to a TAFKAL80ETC concert", 1, 8, 3, 7 },
-                { "Backstage passes to a TAFKAL80ETC concert", 1, 11, 2, 10 },
-                { "Backstage passes to a TAFKAL80ETC concert", 49, 5, 50, 4 },
-                { "Backstage passes to a TAFKAL80ETC concert", -1, -1, 0, -2 },
-                { "Sulfuras, Hand of Ragnaros", 0, 0, 0, 0 }, { "Sulfuras, Hand of Ragnaros", 1, 1, 1, 1 },
-                { "Sulfuras, Hand of Ragnaros", 50, -1, 50, -1 }
+                { "foo", -1, -1, -1, -2 }, { GildedRose.AGED_BRIE, 0, 0, 2, -1 },
+                { GildedRose.AGED_BRIE, 50, 0, 50, -1 }, 
+                { GildedRose.BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT, 1, 1, 4, 0 },
+                { GildedRose.BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT, 50, -1, 0, -2 },
+                { GildedRose.BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT, 1, 8, 3, 7 },
+                { GildedRose.BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT, 1, 11, 2, 10 },
+                { GildedRose.BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT, 49, 5, 50, 4 },
+                { GildedRose.BACKSTAGE_PASSES_TO_A_TAFKAL80ETC_CONCERT, -1, -1, 0, -2 },
+                { GildedRose.SULFURAS_HAND_OF_RAGNAROS, 0, 0, 0, 0 }, { GildedRose.SULFURAS_HAND_OF_RAGNAROS, 1, 1, 1, 1 },
+                { GildedRose.SULFURAS_HAND_OF_RAGNAROS, 50, -1, 50, -1 }
         });
     }
 
