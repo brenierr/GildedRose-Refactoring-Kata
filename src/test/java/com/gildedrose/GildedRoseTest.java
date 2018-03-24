@@ -23,7 +23,7 @@ public class GildedRoseTest {
                 { "Backstage passes to a TAFKAL80ETC concert", 50, -1, 0, -2 },
                 { "Backstage passes to a TAFKAL80ETC concert", 1, 8, 3, 7 },
                 { "Backstage passes to a TAFKAL80ETC concert", 1, 11, 2, 10 },
-                { "Backstage passes to a TAFKAL80ETC concert", 49, 5, 50, 5 },
+                { "Backstage passes to a TAFKAL80ETC concert", 49, 5, 50, 4 },
                 { "Backstage passes to a TAFKAL80ETC concert", -1, -1, 0, -2 },
                 { "Sulfuras, Hand of Ragnaros", 0, 0, 0, 0 }, { "Sulfuras, Hand of Ragnaros", 1, 1, 1, 1 },
                 { "Sulfuras, Hand of Ragnaros", 50, -1, 50, -1 }
