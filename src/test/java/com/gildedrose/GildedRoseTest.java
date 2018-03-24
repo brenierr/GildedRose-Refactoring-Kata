@@ -53,7 +53,7 @@ public class GildedRoseTest {
         Item[] items = new Item[] { new Item(itemName, itemInitialSellIn, itemInitialQuality) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals(itemExpectedQuality, app.items[0].getQuality());
-        assertEquals(itemExpectedSellIn, app.items[0].getSellIn());
+        assertEquals(itemExpectedQuality, app.getItem(0).getQuality());
+        assertEquals(itemExpectedSellIn, app.getItem(0).getSellIn());
     }
 }
